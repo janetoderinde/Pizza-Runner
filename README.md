@@ -7,6 +7,8 @@ This is my solution to Danny Ma's 8 Week SQL Challenge Case Study 2 using Postgr
 # Questions and Solutions (A-Pizza metrics)
 Question 1: How many pizzas were ordered
 Solution: I used the function COUNT(*) to calculate the total number of pizzas ordered from the customer_orders table.
+
 ```SELECT COUNT(*) AS no_of_pizzas_ordered
 FROM pizza_runner.customer_orders;
+
 Question 2: How many unique customer orders were made?
